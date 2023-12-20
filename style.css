@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dba24a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  gap: 2rem;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+.recipes {
+  display: flex;
+  flex-direction: column;
+}
